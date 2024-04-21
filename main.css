@@ -1,0 +1,206 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+
+    
+    background-color: rgba(29, 29, 29, 0.94);
+}
+
+
+.ProductInner{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    margin-bottom: -20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+button{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: none;
+    border-color: white;
+    border-radius: 6px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+.map1{
+    border: 2px solid white;
+    padding: 10px;
+    width: 400px;
+}
+.map{
+
+    height: 30px;
+    
+    
+}
+
+h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#pa{
+    position:absolute;
+    margin-top: 18px;
+    margin-left: 0px;
+    width: 47.2px;
+    background-color: white;
+    height: 2px;
+    
+}
+/* icons */
+/* NavigationBar */
+.NavigationBar{
+    color: white;
+    display: flex;
+    width: 100%;
+    
+}
+.NavigationBar1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(103, 103, 103, 0.236);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    display: flex; 
+    width: 500px; 
+    justify-content:space-between;
+    border-radius: 20px;
+}
+#Home:hover{
+    cursor: pointer;
+}
+#Products:hover{
+    cursor: pointer;
+}
+#AboutUs:hover{
+    cursor: pointer;
+}
+#Contact:hover{
+    cursor: pointer;
+}
+
+/* NavigationBar */
+/* content  */
+
+#flex1{
+    color: white;
+    display: flex;
+    width: 100%;
+
+    
+}
+#flex2{
+    color: white;
+    display: flex;
+    width: 100%;    
+}
+#flex3{
+    color: white;
+    display: flex;
+    width: 100%;    
+}
+#flex4{
+    color: white;
+    display: flex;
+    width: 100%;    
+}
+
+b{
+    font-size: 40px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Content{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 33px;
+    height: 570px;
+    width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    background-color: rgba(103, 103, 103, 0.236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url(./background.jpg); */
+    
+    
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+    width:100%;
+}
+.foot{
+    display: flex;
+    align-items: flex-end;
+    width:100%;
+    z-index: 3;
+}
+.f{
+    height: 25px;
+    margin-right: 10px;
+}
+.i{
+    height: 25px;
+    margin-right: 15px;
+}
+.w{
+    height: 25px;
+    margin-right: 20px;
+}
+
+/* content  */
+
+#arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#arrowin{
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 3px;
+    padding-right: 1px;
+    cursor: pointer;
+    
+}
+#leftarrow{
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 3px;
+    padding-left: 1px;
+    cursor: pointer;
+}
